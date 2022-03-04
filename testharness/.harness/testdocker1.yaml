@@ -1,0 +1,12 @@
+connector:
+  name: testdocker1
+  identifier: testdocker1
+  description:
+  orgIdentifier: default
+  projectIdentifier: akashgitsync
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: docker
+    providerType: DockerHub
+    auth:
+      type: Anonymous
