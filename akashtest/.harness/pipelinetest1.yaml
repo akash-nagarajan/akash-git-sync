@@ -1,6 +1,6 @@
 pipeline:
-    name: pipelinetest
-    identifier: pipelinetest
+    name: pipelinetest1
+    identifier: pipelinetest1
     allowStageExecutions: false
     projectIdentifier: akashgitsync
     orgIdentifier: default
