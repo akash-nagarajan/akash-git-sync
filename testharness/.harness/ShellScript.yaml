@@ -9,7 +9,7 @@ pipeline:
         - stage:
               name: s1
               identifier: s1
-              description: ""
+              description: "main approval"
               type: Approval
               spec:
                   execution:
