@@ -1,0 +1,22 @@
+connector:
+  name: github
+  identifier: github
+  description:
+  orgIdentifier: default
+  projectIdentifier: akashgitsync
+  type: Github
+  spec:
+    url: https://github.com/akash-nagarajan/akash-git-sync
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: akash-nagarajan
+          tokenRef: akashtoken
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: akashtoken
+    executeOnDelegate: false
+    type: Repo
