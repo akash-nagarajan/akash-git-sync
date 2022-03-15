@@ -6,7 +6,8 @@ connector:
   projectIdentifier: akashgitsync
   type: Github
   spec:
-    url: https://github.com/akash-nagarajan/akash-git-sync
+    url: https://github.com/akash-nagarajan
+    validationRepo: akash-git-sync
     authentication:
       type: Http
       spec:
@@ -19,4 +20,4 @@ connector:
       spec:
         tokenRef: akashtoken
     executeOnDelegate: false
-    type: Repo
+    type: Account
