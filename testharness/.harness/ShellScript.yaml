@@ -1,6 +1,6 @@
 pipeline:
     name: ShellScript
-    identifier: ShellScript
+    identifier: ShellScripttodelete
     allowStageExecutions: false
     projectIdentifier: akashgitsync
     orgIdentifier: default
